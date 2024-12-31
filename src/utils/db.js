@@ -16,8 +16,4 @@ const AppDataSource = new DataSource({
   ],
 });
 
-AppDataSource.initialize().then(() => {
-  console.log('Database connected');
-});
-
 module.exports = AppDataSource;
